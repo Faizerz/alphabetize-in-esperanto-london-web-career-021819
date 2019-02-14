@@ -1,11 +1,4 @@
 def alphabetize(arr)
- esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
- arr.sort_by do |a|
-   a.split("")
-end
-
-
-def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |phrase| # sort the elements in arr by given condition
     phrase.split.map do |word| 
